@@ -1,18 +1,16 @@
 # Fake Review Detection System
 
-This is a Rule-Based Fake Review Detection System built using Python.
+This project is a rule-based fake review detection prototype built using Python.
 
 ## Features
-- Detects fake reviews using scoring logic
-- Checks positive word density
-- Detects repeated words
-- Analyzes rating bias
-- Provides Reviewer Trust Level
-
-## How It Works
-The system calculates a Fake Score based on text patterns and rating behavior.
-If the score exceeds a threshold, the review is marked as Fake.
+- Positive/Negative word detection
+- ALL CAPS detection
+- Exclamation spam detection
+- Rating bias detection
+- Suspicious reviewer detection
+- Reviewer trust level classification
 
 ## How to Run
-1. Download main.py
-2. Run: python main.py
+1. Install Python
+2. Run: python fake.py
+3. Enter review, rating, total reviews
