@@ -12,5 +12,5 @@ This project is a rule-based fake review detection prototype built using Python.
 
 ## How to Run
 1. Install Python
-2. Run: python fake.py
+2. Run: python main.py
 3. Enter review, rating, total reviews
